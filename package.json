@@ -1,0 +1,26 @@
+{
+  "name": "access-zoom",
+  "version": "1.0.0",
+  "description": "**Agenda/Content**",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nitrostrider/Access-Zoom.git"
+  },
+  "author": "Maxwell Ye",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nitrostrider/Access-Zoom/issues"
+  },
+  "homepage": "https://github.com/Nitrostrider/Access-Zoom#readme",
+  "dependencies": {
+    "cookie-session": "^1.4.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "passport": "^0.4.1",
+    "passport-google-oauth20": "^2.0.0"
+  }
+}

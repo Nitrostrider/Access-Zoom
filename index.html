@@ -5,20 +5,29 @@
   <meta name="google-signin-client_id"
     content="972449961830-sakibmep0cb48d23tssqqitt160tc29k.apps.googleusercontent.com">
   <script src="https://apis.google.com/js/platform.js" async defer></script>
+  <link rel="stylesheet" href="/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/style.css">
+
+
+
 </head>
 
 <body>
   <!--don't use live server, use localhost:3000-->
-  <h1>AcademiaEdge Login</h1>
-  <div style="width:50%;background-color:pink;">
-    <p>Sign in with Google</p>
-    <div class="g-signin2" data-onsuccess="onSignIn"></div>
-    <p>Sign in with Discord (Coming Soon!)</p>
-    <button>Tentative Discord Button</button>
+  <div class="container" style="background-color:grey;padding:0px;max-width:400px;text-align:center;top:30vh;position:relative;">
+    <h1>AcademiaEdge Login</h1>
+    <div style="background-color:pink;">
+      <p>Sign in with Google</p>
+      <div style="position:relative;left:calc(50% - 50px);width:100px" class="g-signin2" data-onsuccess="onSignIn"></div>
+      <p>Sign in with Discord (Coming Soon!)</p>
+      <button>Tentative Discord Button</button>
+    </div>
+    <a href="#" onclick="signOut();">Sign out</a>
   </div>
-  
-  
-  <a href="#" onclick="signOut();">Sign out</a>
+
+
+
+  <script src="/bootstrap/js/bootstrap.min.js"></script>
 
   <script>
     function onSignIn(googleUser) {
